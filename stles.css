@@ -201,8 +201,8 @@
   grid-template-columns: repeat(3,1fr);
   gap: 30px;
   margin-bottom: 120px;
-  max-width: 1200px;
-  justify-content: center;
+  /* max-width: 1200px;
+  justify-content: center; */
 }
 .episode-card{
   padding: 20px;
