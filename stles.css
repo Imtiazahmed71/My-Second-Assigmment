@@ -110,7 +110,6 @@
   .about-description{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.8);
-    /* line-height: 20px; */
     max-width: 1200px;
     margin: 0 auto 80px;
     padding-bottom: 80px;
@@ -136,11 +135,10 @@
 
 /* main>>features section  */
 .features-section{
-  
   background-color: #230E3D;
   padding: 120px 200px;
 }
-.features-title{
+.section-title{
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 40px;
@@ -153,7 +151,7 @@
   gap: 30px;
   max-width: 1200px;
   justify-items: center;
-  margin: 0 auto;
+  margin: 0 auto 120px;
 }
 .grid-bg{
   background-color: rgba(53, 17, 101, 0.4);
@@ -167,10 +165,7 @@
 .colspan{
   grid-column: span 2;
 }
-.secone{
-  color: #00FF88;
-}
-.frature{
+.feature{
   background-color: #351165;
   margin: auto;
   align-items: center;
@@ -187,4 +182,58 @@
 }
 .grid-details{
   font-size: 1rem;
+}
+  /* <!-- Featured Episodes section  --> */
+.featured-epicodes{
+  max-width: 1600px;
+  margin: 0 auto;
+  justify-items: center;
+}
+.episodes-section-title{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.episode-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  margin-bottom: 120px;
+  max-width: 1200px;
+  justify-content: center;
+}
+.episode-card{
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #250D44;
+}
+.cards-video{
+  width: 100%;
+}
+.card-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.card-description{
+  font-size: 1rem;
+  color: #ffffff7f;
+  margin-bottom: 12px;
+}
+.video-duration{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+/* host section  */
+.host-section{
+  align-items: center;
+  max-width: 1200px;
+  gap: 24px;
+  padding: 40px;
+  background-color: rgba(53, 17, 101, 0.4);
+  margin-bottom: 120px;
 }
